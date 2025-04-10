@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curiosidades da Geórgia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 700px;
+      width: 100%;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card h3 {
+      color: #2980b9;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 700px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Curiosidades sobre a Geórgia e suas cidades</h1>
+
+  <div class="grid">
+    
+    <div class="card">
+      <h3>Geórgia</h3>
+      <ul>
+        <li>É conhecida como o "Peach State", famoso pelos pêssegos doces.</li>
+        <li>A capital da Geórgia é Atlanta, um centro importante de cultura e negócios.</li>
+        <li>Foi uma das 13 colônias originais dos EUA, fundada em 1732.</li>
+      </ul>
+    </div>
+
+    
+    <div class="card">
+      <h3>Savannah</h3>
+      <ul>
+        <li>É a cidade mais antiga da Geórgia, fundada em 1733.</li>
+        <li>Possui 22 praças históricas encantadoras e arborizadas.</li>
+        <li>Serviu de cenário para o filme Forrest Gump.</li>
+      </ul>
+    </div>
+
+    
+    <div class="card">
+      <h3>Macon</h3>
+      <ul>
+        <li>Conhecida como a "Cidade onde o Soul nasceu", lar de artistas como Otis Redding.</li>
+        <li>Tem mais de 5.000 estruturas listadas no Registro Nacional de Lugares Históricos.</li>
+        <li>O Festival das Cerejeiras atrai milhares de visitantes todos os anos.</li>
+      </ul>
+    </div>
+
+    
+    <div class="card">
+      <h3>Augusta</h3>
+      <ul>
+        <li>Sede do prestigiado torneio de golfe The Masters.</li>
+        <li>Localizada às margens do Rio Savannah, com belos passeios à beira-rio.</li>
+        <li>Foi um importante centro durante a Guerra Civil Americana.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

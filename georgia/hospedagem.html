@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: white;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .description {
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HOSPEDAGEM</h1>
+    <p>Escolha o local que te conforta</p>
+
+    <div class="container">
+        <div class="card">
+            <img src="imgs/atlanta.jpg" alt="Hospedagem 1">
+            <div class="description">
+                <p>Hotel - The Westin Peachtree Plaza, Atlanta </p>
+                <p>Avaliações - 8.0 (Muito bom)</p>
+                <p>Localização-210 Peachtree Street, 30303, Atlanta, Estados Unidos da América</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imgs/savannah.jpg" alt="Hospedagem 2">
+            <div class="description">
+                <p>Hotel - Hyatt Regency Savannah</p>
+                <p>Avaliação - 8.5 (Excelente)</p>
+                <p>Localização-West Bay Street, 31401, Savannah, Estados Unidos da América</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imgs/maco.webp" alt="Hospedagem 3">
+            <div class="description">
+                <p>Holiday Inn Express - Macon North</p>
+                <p>Avaliação - 9.0 (Excelente)</p>
+                <p>Localização-240 NORTH MACON ST., 31210, Macon, Estados Unidos da América</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imgs/augusta.jpeg" alt="Hospedagem 4">
+            <div class="description">
+                <p>Crowne Plaza North Augusta</p>
+                <p>Avaliação - 8.8(Excelente)</p>
+                <p>Localização-1060 CENTER STREET, 29841, North Augusta, Estados Unidos da América</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                     
